@@ -1,0 +1,23 @@
+{
+  "name": "rolex-gmt-ii",
+  "version": "1.0.0",
+  "description": "Rolex GMT-Master II in HTML/CSS/JS",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gamell/rolex-gmt-ii.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gamell/rolex-gmt-ii/issues"
+  },
+  "homepage": "https://github.com/gamell/rolex-gmt-ii#readme",
+  "devDependencies": {
+    "webpack": "^1.13.2"
+  }
+}
