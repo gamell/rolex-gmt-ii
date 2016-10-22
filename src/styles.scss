@@ -1,0 +1,102 @@
+// Using SASS for first time, thought would be cool to learn on top of LESS
+
+// Constants
+
+$dial-center: (267px/2);
+$trans: 250ms linear all;
+
+// Mixins
+
+@mixin positionAndInitTransform($x, $y, $pivotX, $pivotY) {
+  width: $x;
+  height: $y;
+  position: absolute;
+  left: ($dial-center)-($pivotX);
+  top: ($dial-center)-($pivotY);
+  transform-origin: $pivotX $pivotY;
+}
+
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backgorund-color: black; //
+  background: radial-gradient(circle at center, #777, black 60%);
+}
+
+#background, #gmt-hand-red, #gmt-hand, #hour-hand, #minute-hand, #second-hand, #cyclops{
+	background: url(http://gamell.io/projects/rolex/img/sprite.png) no-repeat;
+}
+
+#background {
+  background-position: 0 0;
+	width: 425px;
+	height: 753px;
+}
+
+#dial {
+  position: relative;
+  top: 187px;
+  left: 60px;
+  width: 267px;
+  height: 267px;
+
+  #date {
+    position: absolute;
+    width: 45px;
+    font-family: serif;
+    right: 22px;
+    top: 1px;
+    height: 267px;
+    transform: scale(1.3,1);
+    line-height: 267px;
+    font-size: 32px;
+    text-align: center;
+    z-index: 0;
+  }
+
+  #hour-hand{
+    @include positionAndInitTransform(31px, 93px, 16px, 77px);
+    background-position: -426px -242px;
+    transition: $trans;
+    z-index: 1;
+  }
+
+   #gmt-hand {
+    @include positionAndInitTransform(28px, 120px, 14px, 115px);
+    background-position: -426px 0;
+    transition: $trans;
+    z-index: 2;
+  }
+
+  #minute-hand {
+    @include positionAndInitTransform(18px, 126px, 9px, 115px);
+    background-position: -426px -337px;
+    transition: $trans;
+    z-index: 3;
+  }
+
+  #second-hand {
+    @include positionAndInitTransform(17px, 176px, 9px, 125px);
+    background-position: -426px -467px;
+    transition: $trans;
+    z-index: 4;
+  }
+
+  #cyclops {
+    position: absolute;
+    right: 10px;
+    top: 101px;
+    width: 73px;
+	  height: 58px;
+	  background-position: -426px -695px;
+    z-index: 5;
+  }
+
+}
