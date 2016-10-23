@@ -26,12 +26,12 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  backgorund-color: black; //
+  background-color: black; //
   background: radial-gradient(circle at center, #777, black 60%);
 }
 
 #background, #gmt-hand-red, #gmt-hand, #hour-hand, #minute-hand, #second-hand, #cyclops{
-	background: url(http://gamell.io/projects/rolex/img/sprite.png) no-repeat;
+	background: url('../img/sprite.png') no-repeat;
 }
 
 #background {
