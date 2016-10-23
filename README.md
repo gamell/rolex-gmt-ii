@@ -1,8 +1,8 @@
 # Rolex GMT Master II in HTML/JS/CSS
 
-![rolex gif animation](https://github.com/gamell/rolex-gmt-ii/blob/master/media/rolex-gmt-ii.gif)
+[![rolex gif animation](https://github.com/gamell/rolex-gmt-ii/blob/master/media/rolex-gmt-ii.gif)](https://gamell.github.io/rolex-gmt-ii)
 
-See it live in this [Codepen](https://codepen.io/gamell/pen/ozkPLQ) or [here](https://gamell.github.io/rolex-gmt-ii)
+See it live [here](https://gamell.github.io/rolex-gmt-ii) or in this [Codepen](https://codepen.io/gamell/pen/ozkPLQ).
 
 ## Setup
 
