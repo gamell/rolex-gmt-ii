@@ -14,7 +14,7 @@ See it live [here](https://gamell.github.io/rolex-gmt-ii) or in this [Codepen](h
 
 ## Chrome Extension
 
-I also packaged this as a [Google Chrome extension](https://chrome.google.com/webstore/detail/hchnfnfjjknanhhconaappneoejmgngi/publish-accepted?hl=en-US&gl=US). Here you can find the [source code (unpacked extension)](https://github.com/gamell/rolex-gmt-ii-chrome-ext).
+I also packaged this as a [Google Chrome extension](https://chrome.google.com/webstore/detail/hchnfnfjjknanhhconaappneoejmgngi/). Here you can find the [source code (unpacked extension)](https://github.com/gamell/rolex-gmt-ii-chrome-ext).
 
 ## Thoughts
 
