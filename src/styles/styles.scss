@@ -27,12 +27,12 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  backgorund-color: black; //
   background: radial-gradient(circle at center, #777, black 60%);
 }
 
 #background, #gmt-hand-red, #gmt-hand, #hour-hand, #minute-hand, #second-hand, #cyclops{
-	background: url(../img/sprite.png) no-repeat;
+	background: url(http://gamell.io/projects/rolex/img/sprite.png) no-repeat;
 }
 
 #background {
@@ -103,11 +103,20 @@ body{
 }
 
 #config {
+  font-size: 18px;
   position: absolute;
   top: 0.5em;
   right: 0.5em;
   text-align: right;
   transition: $trans;
+
+  .left{
+    float: left;
+  }
+
+  .right{
+    float: right;
+  }
 
   a {
     opacity: 0.4;
@@ -119,6 +128,7 @@ body{
   }
 
   .menu {
+    overflow: auto;
     font-family: Helvetica, Sens-serif;
     color: #ddd;
     padding: 0.5em;
@@ -126,19 +136,19 @@ body{
     text-align: justify;
   }
   .button{
-    margin: 0.1em;
+    margin: 0 0.1em;
     cursor: pointer;
     display:inline-block;
-    width:20px;
-    height:20px;
-    line-height:20px;
+    width: 1.1em;
+    height: 1.1em;
+    line-height: 1em;
     border: 1px solid #aaa;
     border-radius: 50%;
     color:#aaa;
     text-align:center;
     text-decoration:none;
     background: #222;
-    font-size:20px;
+    font-size: 1em;
 
     &:hover{
       background: #444;

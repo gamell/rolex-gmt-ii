@@ -22,7 +22,8 @@ body
     a(v-on:click='toggleConfig', title='Configuration') &#9776;
     div.menu(v-if='showConfig')
       p GMT Timezone
-      p UTC {{ textTimezone }}
+      div.left UTC {{ textTimezone }}
+      div.right
         span.button.minus(v-on:click='minusOne') -
         span.button.plus(v-on:click='plusOne') +
   #background
