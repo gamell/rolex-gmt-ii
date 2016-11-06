@@ -10,7 +10,7 @@ module.exports = {
   module: {
     loaders: [
       { test: /\.pug$/, loader: 'pug' },
-      { test: /\.png$/, loader: "url-loader" },
+      { test: /\.png$/, loader: 'url-loader' },
       { test: /\.scss$/, loaders: ['style', 'css', 'sass']},
     ]
   },
@@ -27,5 +27,10 @@ module.exports = {
       template: 'src/templates/index.pug',
       filename: 'rolex.html'
     })
-  ]
+  ],
+  resolve: {
+    alias: {
+      'vue$': 'vue/dist/vue.js'
+    }
+  } 
 };

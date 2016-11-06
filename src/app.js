@@ -1,10 +1,11 @@
 // CSS
 require("./styles/styles.scss");
 
-// jQuery
+// libraries
 $ = require('jquery');
+Vue = require('vue');
 
-// CSS
+// logic
 require('./js/rolex.js');
 
 // HTML (JADE/PUG) in ./templates/index.pug

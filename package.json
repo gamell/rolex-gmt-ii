@@ -21,7 +21,7 @@
   "devDependencies": {
     "css-loader": "^0.25.0",
     "file-loader": "^0.9.0",
-    "html-webpack-plugin": "^2.24.0",
+    "html-webpack-plugin": "^2.24.1",
     "jquery": "^3.1.1",
     "node-sass": "^3.10.1",
     "pug": "^2.0.0-beta6",
@@ -29,6 +29,7 @@
     "sass-loader": "^4.0.2",
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
+    "vue": "^2.0.5",
     "webpack": "^1.13.2"
   }
 }
