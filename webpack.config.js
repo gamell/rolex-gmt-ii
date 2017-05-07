@@ -10,8 +10,8 @@ module.exports = {
   module: {
     loaders: [
       { test: /\.pug$/, loader: 'pug' },
-      { test: /\.png$/, loader: 'url-loader' },
-      { test: /\.scss$/, loaders: ['style', 'css', 'sass']},
+      { test: /\.png$/, loader: 'file-loader' },
+      { test: /\.scss$/, loaders: ['style-loader', 'css-loader', 'sass-loader']},
     ]
   },
   plugins: [
@@ -32,5 +32,5 @@ module.exports = {
     alias: {
       'vue$': 'vue/dist/vue.js'
     }
-  } 
+  }
 };
