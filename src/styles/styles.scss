@@ -23,7 +23,7 @@ html, body {
   user-select: none;
 }
 
-body{
+body.main {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,7 +31,7 @@ body{
   background: radial-gradient(circle at center, #777, black 60%);
 }
 
-#background, #gmt-hand-red, #gmt-hand, #hour-hand, #minute-hand, #second-hand, #cyclops{
+#background, #gmt-hand-red, #gmt-hand, #hour-hand, #minute-hand, #second-hand, #cyclops {
 	background: url(../img/sprite.png) no-repeat;
 }
 

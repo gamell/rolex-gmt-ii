@@ -1,15 +1,16 @@
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const path = require('path');
 
 module.exports = {
   entry: './src/app.js',
   output: {
-    path: './bin',
+    path: path.resolve(__dirname, 'bin'),
     filename: 'app.bundle.js'
   },
   module: {
     loaders: [
-      { test: /\.pug$/, loader: 'pug' },
+      { test: /\.pug$/, loader: 'pug-loader' },
       { test: /\.png$/, loader: 'file-loader' },
       { test: /\.scss$/, loaders: ['style-loader', 'css-loader', 'sass-loader']},
     ]
