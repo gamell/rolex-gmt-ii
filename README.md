@@ -2,7 +2,7 @@
 
 [![rolex gif animation](https://github.com/gamell/rolex-gmt-ii/blob/master/media/rolex-gmt-ii.gif)](https://gamell.github.io/rolex-gmt-ii)
 
-See it live [here](https://gamell.github.io/rolex-gmt-ii) or in this [Codepen](https://codepen.io/gamell/pen/ozkPLQ).
+See it live [here](https://gamell.github.io/rolex-gmt-ii/rolex.html) or in this [Codepen](https://codepen.io/gamell/pen/ozkPLQ).
 
 ## Setup
 
